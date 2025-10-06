@@ -31,6 +31,32 @@ Vous intervenez en tant qu'intégratrice ou intégrateur front-end au sein d'une
 - Dépôt Git accessible.
 - README mis à jour (ce fichier) servant d'énoncé officiel pour l'ECF.
 
+## installation et mise en route (ajout pratique)
+
+Cloner le dépôt :
+
+git clone https://github.com/daniel69110/ECF-2
+
+
+Backend :
+
+cd backend
+./mvnw clean install
+
+
+Frontend :
+
+
+npm install
+npm run dev
+
+
+Docker :
+
+docker-compose up --build
+
+
+
 ## Conseils
 - Commencez par prendre en main l'existant : inventaire des scripts `package.json`, des modules Maven, et des services déjà déclarés dans `docker-compose.yml`.
 - Définissez vos composants React à partir de la maquette avant d'implémenter la logique métier.
